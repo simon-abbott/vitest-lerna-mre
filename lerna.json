@@ -1,0 +1,14 @@
+{
+  "npmClient": "npm",
+  "packages": ["packages/*"],
+  "command": {
+    "publish": {
+      "ignoreChanges": ["**/__tests__/**", "**/*.md"],
+      "registry": "https://npm.pkg.github.com"
+    },
+    "version": {
+      "message": "chore(release): publish %s"
+    }
+  },
+  "version": "independent"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "example-test-two",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@vitest/ui": "latest",
+    "vitest": "latest"
+  },
+  "dependencies": {
+    "example-test-one": "*"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@vitest/example-test",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "test": "cd packages/two && npm run test:run"
+  },
+  "devDependencies": {
+    "lerna": "5.4.2"
+  }
+}

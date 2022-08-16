@@ -1,0 +1,8 @@
+{
+  "name": "example-test-one",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "devDependencies": {}
+}
